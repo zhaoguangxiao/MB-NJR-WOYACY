@@ -8,7 +8,36 @@
   <component name="ChangeListManager">
     <list default="true" id="97633abe-32e1-49a9-84dc-26076abf3aff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/introduce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/newsInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/newsInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/ask.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/ask.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/introduce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/10.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/11.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/12.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/13.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/14.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/15.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/16.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/17.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/18.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/19.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/lib/layui/images/face/2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/newsInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/newsInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/support.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/support.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,13 +52,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+            <state relative-caret-position="254">
+              <caret line="255" column="41" selection-start-line="255" selection-start-column="41" selection-end-line="255" selection-end-column="41" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/introduce.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="121" column="41" selection-start-line="121" selection-start-column="41" selection-end-line="121" selection-end-column="41" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/join.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="189" column="41" selection-start-line="189" selection-start-column="41" selection-end-line="189" selection-end-column="41" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="135" column="41" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="41" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/newsInfo.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/product.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="183" column="21" lean-forward="true" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -46,6 +144,8 @@
       <find>manage.4007123123.com</find>
       <find>https://manage.zhou-yuanwai.com</find>
       <find>userEqt</find>
+      <find>牛家人百度品专</find>
+      <find>400-999-8017</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -57,15 +157,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/lib/moment/moment.min.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/contact.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/ask.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/support.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/contact.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/introduce.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/join.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/news.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/newsInfo.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/product.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/support.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
       </list>
     </option>
   </component>
@@ -273,7 +373,7 @@
       <workItem from="1579143060620" duration="728000" />
       <workItem from="1583216400770" duration="557000" />
       <workItem from="1583217002306" duration="197000" />
-      <workItem from="1583217236398" duration="500000" />
+      <workItem from="1583217236398" duration="989000" />
     </task>
     <task id="LOCAL-00001" summary="牛家人移动端网站">
       <created>1583216902545</created>
@@ -296,17 +396,31 @@
       <option name="project" value="LOCAL" />
       <updated>1583217665833</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="修改移动牛家人tdk">
+      <created>1583217786716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583217786716</updated>
+    </task>
+    <task id="LOCAL-00005" summary="400 电话修改">
+      <created>1583218101072</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583218101072</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5529000" />
+    <option name="totallyTimeSpent" value="6018000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="829" y="168" width="1400" height="825" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.35391566" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19420601" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -317,7 +431,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.1809101" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37846836" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3529412" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -328,16 +442,16 @@
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.2238806" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.30854607" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.23229614" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.23229614" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35391566" />
@@ -407,7 +521,9 @@
     <MESSAGE value="牛家人移动端网站" />
     <MESSAGE value="修改导航栏" />
     <MESSAGE value="删除百度统计名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除百度统计名称" />
+    <MESSAGE value="修改移动牛家人tdk" />
+    <MESSAGE value="400 电话修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="400 电话修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -451,27 +567,44 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/images/index/banner01.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/support.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="140" column="40" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="255" column="41" selection-start-line="255" selection-start-column="41" selection-end-line="255" selection-end-column="41" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="158" column="46" selection-start-line="158" selection-start-column="46" selection-end-line="158" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="116" column="41" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
           <folding>
             <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/ask.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="130" column="46" selection-start-line="130" selection-start-column="46" selection-end-line="130" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/introduce.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="155" column="46" selection-start-line="155" selection-start-column="46" selection-end-line="155" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="121" column="41" selection-start-line="121" selection-start-column="41" selection-end-line="121" selection-end-column="41" />
           <folding>
             <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -480,8 +613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/join.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="230" column="46" selection-start-line="230" selection-start-column="46" selection-end-line="230" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="189" column="41" selection-start-line="189" selection-start-column="41" selection-end-line="189" selection-end-column="41" />
           <folding>
             <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -490,8 +623,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="268" column="46" selection-start-line="268" selection-start-column="46" selection-end-line="268" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="135" column="41" selection-start-line="135" selection-start-column="41" selection-end-line="135" selection-end-column="41" />
           <folding>
             <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -500,34 +633,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/newsInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="195" column="46" selection-start-line="195" selection-start-column="46" selection-end-line="195" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="235" column="46" selection-start-line="235" selection-start-column="46" selection-end-line="235" selection-end-column="46" />
+        <state relative-caret-position="46">
+          <caret line="183" column="21" lean-forward="true" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
           <folding>
             <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/support.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="208" column="48" lean-forward="true" selection-start-line="208" selection-start-column="48" selection-end-line="208" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
