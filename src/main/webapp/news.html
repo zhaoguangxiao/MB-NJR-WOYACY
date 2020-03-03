@@ -93,24 +93,24 @@
         </ul>
     </section>
 
-    <section class="news-box news02 w">
-        <h2 class="title">
-            <i>新闻资讯</i>
-            <a href="javascript:void(0);" @click="nextList(2)">换一批</a>
-        </h2>
-        <ul>
-            <li v-for="item in news01List.slice(news02.pageStart,news02.pageEnd)" :key="item.uidpk">
-                <a :href="'./newsInfo.html?id='+item.uidpk">
-                    <div class="word">
-                        <h2>{{ item.title }}</h2>
-                        <p class="cont">{{ item.description }}</p>
-                        <p class="info">来源：{{ item.source }} &nbsp {{ item.createTime | getTime }}</p>
-                    </div>
-                    <img :src="item.articleThumbnailBean.thumbnailurl" alt="">
-                </a>
-            </li>
-        </ul>
-    </section>
+<!--    <section class="news-box news02 w">-->
+<!--        <h2 class="title">-->
+<!--            <i>新闻资讯</i>-->
+<!--            <a href="javascript:void(0);" @click="nextList(2)">换一批</a>-->
+<!--        </h2>-->
+<!--        <ul>-->
+<!--            <li v-for="item in news01List.slice(news02.pageStart,news02.pageEnd)" :key="item.uidpk">-->
+<!--                <a :href="'./newsInfo.html?id='+item.uidpk">-->
+<!--                    <div class="word">-->
+<!--                        <h2>{{ item.title }}</h2>-->
+<!--                        <p class="cont">{{ item.description }}</p>-->
+<!--                        <p class="info">来源：{{ item.source }} &nbsp {{ item.createTime | getTime }}</p>-->
+<!--                    </div>-->
+<!--                    <img :src="item.articleThumbnailBean.thumbnailurl" alt="">-->
+<!--                </a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </section>-->
 
 
     <footer>
@@ -183,7 +183,7 @@
                 const res = await axios.get(`https://manage.zhou-yuanwai.com/comprehens/journalism.do?uidpk=${type}`)
                 console.log(res.data)
                 switch (type) {
-                    case 1:
+                    case 20:
                         // console.log(type)
                         this.news01List = res.data
                         break
@@ -223,8 +223,8 @@
             },
         },
         created() {
-            this.getNews01(1)
-            this.getNews01(8)
+            this.getNews01(20)
+            //this.getNews01(8)
         },
         filters: {
             // 超过字数变成省略号

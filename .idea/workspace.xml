@@ -6,23 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97633abe-32e1-49a9-84dc-26076abf3aff" name="Default Changelist" comment="">
+    <list default="true" id="97633abe-32e1-49a9-84dc-26076abf3aff" name="Default Changelist" comment="导航栏 修改撤回">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/introduce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/join.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY.war" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/introduce.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/join.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/newsInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/newsInfo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,46 +30,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/news.html">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="304">
+              <caret line="355" column="82" selection-start-line="355" selection-start-column="19" selection-end-line="355" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/support.html">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3488">
-              <caret line="140" column="40" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/newsInfo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/join.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
+            <state relative-caret-position="170">
+              <caret line="95" selection-start-line="95" selection-start-column="4" selection-end-line="112" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -97,6 +62,10 @@
       <find>400-999-8017</find>
       <find>11048774号</find>
       <find>110</find>
+      <find>https://manage.zhou-yuanwai.com/comprehens/journalism.do?uidpk=</find>
+      <find>uidpk</find>
+      <find>nextList</find>
+      <find>getNews01</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,13 +79,13 @@
         <option value="$PROJECT_DIR$/src/main/webapp/lib/moment/moment.min.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/ask.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/support.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/contact.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/introduce.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/join.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/news.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/newsInfo.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/introduce.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/product.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/contact.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/join.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/news.html" />
       </list>
     </option>
   </component>
@@ -325,7 +294,7 @@
       <workItem from="1583216400770" duration="557000" />
       <workItem from="1583217002306" duration="197000" />
       <workItem from="1583217236398" duration="2305000" />
-      <workItem from="1583219744405" duration="259000" />
+      <workItem from="1583219744405" duration="3406000" />
     </task>
     <task id="LOCAL-00001" summary="牛家人移动端网站">
       <created>1583216902545</created>
@@ -369,16 +338,23 @@
       <option name="project" value="LOCAL" />
       <updated>1583218313069</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="导航栏 修改撤回">
+      <created>1583220088439</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583220088439</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7593000" />
+    <option name="totallyTimeSpent" value="10740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27628756" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24034335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -388,19 +364,19 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.281909" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4313433" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17758046" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4428413" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.16981132" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32963374" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.37069923" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.36514983" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -496,7 +472,8 @@
     <MESSAGE value="修改移动牛家人tdk" />
     <MESSAGE value="400 电话修改" />
     <MESSAGE value="备案号 修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="备案号 修改" />
+    <MESSAGE value="导航栏 修改撤回" />
+    <option name="LAST_COMMIT_MESSAGE" value="导航栏 修改撤回" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -547,62 +524,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="50" column="44" lean-forward="true" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="114" column="25" lean-forward="true" selection-start-line="114" selection-start-column="25" selection-end-line="114" selection-end-column="25" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/introduce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/join.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="39" column="47" lean-forward="true" selection-start-line="39" selection-start-column="47" selection-end-line="39" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/newsInfo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="1971">
           <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="372">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/support.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3488">
+        <state relative-caret-position="3164">
           <caret line="140" column="40" selection-start-line="140" selection-start-column="40" selection-end-line="140" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/introduce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="355" column="82" selection-start-line="355" selection-start-column="19" selection-end-line="355" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="95" selection-start-line="95" selection-start-column="4" selection-end-line="112" selection-end-column="18" />
         </state>
       </provider>
     </entry>
