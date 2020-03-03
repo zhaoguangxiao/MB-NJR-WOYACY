@@ -1,0 +1,92 @@
+.content {
+  background-color: #030303;
+  position: relative;
+}
+nav .swiper-slide:nth-of-type(6) a {
+  color: #333;
+  font-weight: 600;
+}
+nav .swiper-slide:nth-of-type(6) a:after {
+  content: '';
+  width: 18px;
+  height: 3px;
+  background-color: #edc67b;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.content {
+  background: url("../images/contact/niu.jpg") no-repeat center center;
+  padding: 36px 10px 28px;
+  background-size: cover;
+}
+.content p {
+  color: #e0be7d;
+  text-align: right;
+  padding-right: 28px;
+}
+.content p:nth-of-type(3) {
+  margin-bottom: 30px;
+}
+.content p:nth-of-type(3) img {
+  display: block;
+  width: 65px;
+}
+.content .call {
+  font-size: 18px;
+}
+.content .call a {
+  color: #e0be7d;
+}
+.content .address {
+  font-size: 12px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.content #map {
+  width: 3.55rem;
+  height: 1.955rem;
+  background-color: #ffffff;
+  border: 5px solid #f8d47a;
+}
+.content #map .BMap_cpyCtrl {
+  display: none;
+}
+.content #map .anchorBL {
+  display: none;
+}
+.form {
+  background-color: #ffffff;
+  padding: 37px 42.5px;
+}
+.form h2 {
+  font-size: 27px;
+  color: #231815;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.form .form-box input {
+  height: 50px;
+  margin-bottom: 35px;
+  border-radius: 5px;
+  border-color: #333333;
+}
+.form .form-box .btn-box {
+  margin: 0 auto;
+}
+.form .form-box button {
+  width: 100%;
+  height: 0.45rem;
+  background-image: linear-gradient(265deg, #ecbc6a 0%, #f8d599 21%, #ffe0ab 50%, #ffdea6 77%, #ecbc6a 100%), linear-gradient(#f8d599, #f8d599);
+  background-blend-mode: normal,
+      normal;
+  box-shadow: 2px 4px 16px 0 rgba(159, 101, 0, 0.13);
+  border-radius: 10px;
+  border: 0 solid #eaeaea;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -1,0 +1,156 @@
+nav .swiper-slide:nth-of-type(4) a {
+  color: #333;
+  font-weight: 600;
+}
+nav .swiper-slide:nth-of-type(4) a:after {
+  content: '';
+  width: 18px;
+  height: 3px;
+  background-color: #edc67b;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.title i {
+  color: #333;
+}
+.title i:nth-of-type(1) {
+  font-size: 20px;
+}
+.title i:nth-of-type(2) {
+  font-size: 10px;
+}
+.enterprise-advantage {
+  padding-top: 21.5px;
+  padding-bottom: 21px;
+  background-color: #fff;
+}
+.enterprise-advantage ul {
+  margin-top: 0.215rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.enterprise-advantage ul li {
+  position: relative;
+}
+.enterprise-advantage ul li.img {
+  flex: 0 0 1.81rem;
+  width: 1.81rem;
+  height: 1.8rem;
+}
+.enterprise-advantage ul li.img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.enterprise-advantage ul li.img div {
+  width: 0.855rem;
+  height: 0.845rem;
+  background-color: rgba(255, 205, 93, 0.83);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.enterprise-advantage ul li.img div p:nth-of-type(1) {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+.enterprise-advantage ul li.img div p:nth-of-type(2) {
+  font-size: 12px;
+  color: #101010;
+}
+.enterprise-advantage ul li.word {
+  flex: 0 0 1.495rem;
+  width: 1.495rem;
+  height: 1.525rem;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.enterprise-advantage ul li.word p:nth-of-type(1) {
+  font-weight: 600;
+  font-size: 18px;
+  color: #000;
+}
+.enterprise-advantage ul li.word p:nth-of-type(2) {
+  font-size: 12px;
+  color: #101010;
+}
+.enterprise-advantage ul li:nth-of-type(-n+4) {
+  margin-bottom: 10px;
+}
+.franchise-advantage {
+  margin-top: 15px;
+  padding-bottom: 18.5px;
+  background-color: #fff;
+}
+.franchise-advantage ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.franchise-advantage ul li {
+  flex: 0 0 1.11rem;
+  width: 1.11rem;
+  height: 0.89rem;
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.franchise-advantage ul li img {
+  display: block;
+  width: 0.355rem;
+  margin-bottom: 0.1rem;
+}
+.franchise-advantage ul li p {
+  font-size: 15px;
+  color: #e3c26b;
+}
+.franchise-advantage ul li:nth-of-type(-n+3) {
+  margin-bottom: 10px;
+}
+.case {
+  margin-top: 15px;
+  padding-top: 21.5px;
+  padding-bottom: 18px;
+  background-color: #fff;
+}
+.case ul {
+  margin-top: 17px;
+}
+.case ul li {
+  box-shadow: 2px 1px 10px 0px rgba(35, 17, 16, 0.24);
+}
+.case ul li img {
+  display: block;
+  width: 100%;
+  height: 1.9rem;
+  object-fit: cover;
+}
+.case ul li p {
+  background-color: #333;
+  line-height: 0.35rem;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+.case ul li:nth-of-type(1) {
+  margin-bottom: 14px;
+}
+/*# sourceMappingURL=join.css.map */

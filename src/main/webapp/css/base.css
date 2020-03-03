@@ -1,0 +1,142 @@
+/*公共样式*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*1.样式重置*/
+html, body, ul, li, img, a, p, div, form, input, dl, dd, dt, span {
+    padding: 0;
+    margin: 0;
+    /*设置盒模型*/
+    box-sizing: border-box;
+    /*去除移动端特有的点击高亮效果*/
+    -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+a,
+a:hover {
+    color: #666;
+    text-decoration: none;
+}
+
+ul, dl, dd, dt {
+    list-style: none;
+}
+
+input {
+    /*1.清除文本框获取焦点时默认的边框阴影*/
+    outline: none;
+    /*2.去除边框*/
+    border: none;
+    /*3.添加边框*/
+    border: 1px solid #ccc;
+}
+
+/*2.添加新的样式*/
+.f_left {
+    float: left;
+}
+
+.f_right {
+    float: right;
+}
+
+.m_left10 {
+    margin-left: 10px;
+}
+
+.m_right10 {
+    margin-right: 10px;
+}
+
+.m_top10 {
+    margin-top: 10px;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0px;
+    clear: both;
+    visibility: hidden;
+}
+
+@font-face {
+    font-family: SourceHanSansK-Regular;
+    font-display: swap;
+    src: url('//at.alicdn.com/t/webfont_rozsypggdee.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/webfont_rozsypggdee.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//at.alicdn.com/t/webfont_rozsypggdee.woff2') format('woff2'),
+    url('//at.alicdn.com/t/webfont_rozsypggdee.woff') format('woff'), /* chrome、firefox */ url('//at.alicdn.com/t/webfont_rozsypggdee.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/webfont_rozsypggdee.svg#思源黑体-普通') format('svg'); /* iOS 4.1- */
+}
+
+html, body {
+    font-family: " SourceHanSansK-Regular" !important;
+}
+
+/* 阿里字体图标 */
+@font-face {
+    font-family: 'iconfont';  /* project id 1507073 */
+    src: url('//at.alicdn.com/t/font_1507073_2pmw4kfuaca.eot');
+    src: url('//at.alicdn.com/t/font_1507073_2pmw4kfuaca.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1507073_2pmw4kfuaca.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1507073_2pmw4kfuaca.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1507073_2pmw4kfuaca.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1507073_2pmw4kfuaca.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.layout {
+    width: 100%;
+    background-color: #f3f3f3;
+    max-width: 6.4rem;
+    min-width: 3.2rem;
+    /*position: relative;*/
+    border-top: 1px solid transparent;
+}
+
+.container {
+    padding-left: 0.15rem;
+    padding-right: 0.15rem;
+}
+
+a::after {
+    /*display: none!important;*/
+}
+
+
+.layout {
+    max-width: 640px;
+}
+
+.w {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+i {
+    font-style: normal;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}

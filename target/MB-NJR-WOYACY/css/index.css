@@ -1,0 +1,318 @@
+header {
+  width: 100%;
+  height: 42px;
+  background-color: #fff;
+}
+header h1 {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  margin-top: 0 !important;
+  font-weight: normal;
+}
+header h1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 42px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+.content {
+  /* 导航 */
+  /* 滚动商圈 */
+  /* 品牌介绍 */
+  /* 产品中心 */
+  /* 加盟优势 */
+  /* 新闻 */
+}
+.content nav .swiper-slide:nth-of-type(1) a {
+  color: #333;
+  font-weight: 600;
+}
+.content nav .swiper-slide:nth-of-type(1) a:after {
+  content: '';
+  width: 18px;
+  height: 3px;
+  background-color: #edc67b;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.content h2.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content h2.title img {
+  display: block;
+  width: 1.99rem;
+}
+.content h2.title a {
+  font-size: 11px;
+  color: #666;
+}
+.content hr {
+  border: 0;
+  height: 1px;
+  background-color: #eaeaea;
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
+.content .tradingArea {
+  width: 3.47rem;
+  background-color: #fff;
+  margin: 14px auto 0;
+  padding-bottom: 0.2rem;
+  position: relative;
+  overflow: hidden;
+}
+.content .tradingArea > div {
+  padding-top: 18px;
+}
+.content .tradingArea > div > ul {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  position: relative;
+  z-index: 33;
+}
+.content .tradingArea > div > ul li {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  padding-top: 0.06rem;
+  padding-bottom: 0.06rem;
+}
+.content .tradingArea > div .ta-banner {
+  height: 1.75rem;
+  margin-top: 0.1rem;
+}
+.content .tradingArea > div .ta-banner .swiper-slide {
+  height: auto;
+}
+.content .tradingArea > div .ta-banner .swiper-slide > ul {
+  height: 0.35rem !important;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #8f8f8f;
+}
+.content .tradingArea > div .ta-banner .swiper-slide > ul li {
+  flex: 1;
+  text-align: center;
+  line-height: 0.35rem;
+  font-size: 13px;
+  color: #333;
+}
+.content .tradingArea > div .to-form {
+  display: block;
+  width: 3.22rem;
+  height: 0.65rem;
+  font-size: 21px;
+  color: #6f4100;
+  line-height: 0.6rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 0.225rem;
+  background: url("../images/index/btn_back.png") no-repeat center center;
+  background-size: cover;
+}
+.content .tradingArea:after {
+  content: '';
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #f1d49c;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+}
+.content .tradingArea:before {
+  content: '';
+  position: absolute;
+  width: 0.365rem;
+  height: 0.365rem;
+  background-color: rgba(241, 212, 156, 0.4);
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  z-index: 1;
+}
+.content .story {
+  width: 3.47rem;
+  margin: 14px auto 0;
+  background-color: #fff;
+  padding-top: 21px;
+  padding-bottom: 25px;
+}
+.content .story .story-bottom > img {
+  display: block;
+  width: 100%;
+  margin-bottom: 17.5px;
+}
+.content .story .story-bottom p {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 21px;
+}
+.content .story .story-bottom p:nth-of-type(1) {
+  color: #333;
+}
+.content .story .story-bottom p:nth-of-type(2) {
+  color: #666;
+}
+.content .story .story-bottom div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.content .story .story-bottom div img {
+  display: block;
+  flex: 0 0 1.42rem;
+  width: 1.42rem;
+  height: 0.9rem;
+}
+.content .product {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-top: 21px;
+  padding-bottom: 36px;
+  background: url("../images/index/product_back.png") no-repeat center center;
+  background-size: cover;
+}
+.content .product hr {
+  background-color: #484848 !important;
+}
+.content .product .product-mid > div {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.content .product .product-mid img {
+  display: block;
+}
+.content .product .product-mid img:nth-of-type(1),
+.content .product .product-mid img:nth-of-type(2) {
+  flex: 0 0 1.5rem;
+  width: 1.5rem;
+  height: 0.96rem;
+  margin-bottom: 9px;
+}
+.content .product .product-mid img:nth-of-type(3),
+.content .product .product-mid img:nth-of-type(4),
+.content .product .product-mid img:nth-of-type(5) {
+  flex: 0 0 1rem;
+  width: 1rem;
+  height: 0.98rem;
+}
+.content .product .product-bottom {
+  width: 100%;
+  margin-top: 23px;
+}
+.content .product .product-bottom img {
+  display: block;
+  width: 100%;
+}
+.content .join {
+  background: url("../images/index/join_back.png") no-repeat center right;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 12.5px;
+}
+.content .join div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.content .join div span {
+  font-size: 16px;
+  color: #333;
+  margin-right: 19px;
+  padding: 8px;
+}
+.content .join div span:hover {
+  background-color: #333333;
+  border-radius: 10px;
+  color: #ffdea5;
+}
+.content .news {
+  margin-top: 15px;
+  padding-top: 20px;
+  background-color: #fff;
+}
+.content .news > div ul {
+  margin-top: 20px;
+}
+.content .news > div ul li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid #eaeaea;
+}
+.content .news > div ul li a {
+  display: flex;
+  justify-content: space-between;
+}
+.content .news > div ul li a > div {
+  flex: 0 0 1.75rem;
+  width: 1.75rem;
+  display: flex;
+  flex-direction: column;
+}
+.content .news > div ul li a > div p {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.content .news > div ul li a > div .title {
+  color: #333;
+  font-size: 13px;
+  font-weight: 600;
+}
+.content .news > div ul li a > div .desc {
+  font-size: 11px;
+  color: #333;
+  margin-top: 10px;
+  margin-bottom: 11px;
+}
+.content .news > div ul li a > div .info {
+  font-size: 9px;
+  color: #666;
+}
+.content .news > div ul li a img {
+  flex: 0 0 0.91rem;
+  display: block;
+  width: 0.91rem;
+  height: 0.575rem;
+}
+/*# sourceMappingURL=index.css.map */
+
+/** 加盟热线 start*/
+.content .tradingAreaTest {
+  width: 3.47rem;
+  margin: 15px auto 0;
+  padding-bottom: 0.2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.content .tradingAreaTest > div .to-form {
+  display: block;
+  width: 3.22rem;
+  height: 0.65rem;
+  font-size: 21px;
+  color: #6f4100;
+  line-height: 0.6rem;
+  text-align: center;
+  border-radius: 10px;
+  background: url("../images/index/btn_back.png") no-repeat center center;
+  background-size: cover;
+}
+/** 加盟热线 end*/

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" content="味捷餐饮旗下品牌。牛家人大碗牛肉面，新鲜不过夜！">
+    <meta name="description" content="味捷餐饮旗下品牌。牛家人大碗牛肉面，新鲜不过夜！">
+    <meta name="format-detection" content="telephone=yes"/>
+    <title>面店加盟__牛家人大碗牛肉面加盟官网</title>
+    <link rel=icon type=image/x-icon href=./public/favicon.ico>
+    <!-- 重置页面 -->
+    <link rel="stylesheet" href="./css/base.css">
+    <!-- 当页面的css -->
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <!-- swiper -->
+    <link href="https://cdn.bootcss.com/Swiper/4.5.0/css/swiper.min.css" rel="stylesheet">
+    <!-- layui.css -->
+    <link rel="stylesheet" href="./lib/layui/css/layui.css">
+    <script src="./lib/rem/rem.js"></script>
+    <script type="text/javascript"
+            src="http://api.map.baidu.com/api?v=2.0&ak=6OyetGvU09G0Qlh5fTzMWZN5hrsUktVa"></script>
+
+
+    <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+</head>
+<body>
+
+
+<div class="layout clearfix" id="contact">
+    <!-- 导航 -->
+    <nav class="w">
+        <div class="swiper-container nav-banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="/">
+                        首页
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./introduce.html">
+                        关于我们
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./product.html">
+                        产品展示
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./join.html">
+                        招商加盟
+                    </a>
+                </div>
+                <div class="swiper-slide swiper-slide-active">
+                    <a href="./news.html">
+                        新闻资讯
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./contact.html">
+                        联系我们
+                    </a>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <!--<div class="swiper-pagination"></div>-->
+        </div>
+    </nav>
+
+
+    <section class="content">
+        <p class="call"><a href="tel:400-999-8017">客服热线:400-999-8017</a></p>
+        <p class="address">浙江省杭州市滨江区龙威大厦20楼</p>
+        <p class="clearfix"><img src="./images/contact/qrcode.png" alt="牛家人二维码" class="f_right"></p>
+        <div id="map">
+
+        </div>
+    </section>
+
+    <section class="form">
+        <h2>领取牛家人加盟资料</h2>
+        <div class="form-box">
+            <form action="" class="layui-form mb-form">
+                <div class="w">
+                    <input type="text" placeholder="姓名" class="layui-input" name="username" lay-verify="username">
+                    <input type="text" placeholder="联系方式" class="layui-input" name="phone" lay-verify="required|phone">
+                    <input type="hidden" placeholder="请输入所在地区" class="layui-input" name="address" lay-verify="address">
+                </div>
+                <div class="btn-box">
+                    <button lay-submit lay-filter="go">立即申请加盟</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-left">
+            <a href="javascript:void(0);" class="call">
+                <img src="./public/call.png" alt="">
+                <div>
+                    <p>客服热线：</p>
+                    <p>400-999-8017</p>
+                </div>
+            </a>
+            <a href="javascript:void(0);" class="address">
+                <img src="./public/address.png" alt="">
+                <div>
+                    <p>公司地址：</p>
+                    <p>浙江省杭州市滨江区龙威大厦20楼</p>
+                </div>
+            </a>
+           <a rel="nofollow" href="http://beian.miit.gov.cn/" class="keep">
+                    <img src="./public/bn.png" alt="">
+                    <div>
+                        <p>备案号：</p>
+                        <p>11048774号</p>
+                    </div>
+                </a>
+        </div>
+        <img src="./public/footer_qrcode.png" alt="" class="footer-logo">
+    </footer>
+    <p class="warn_tip w">
+            <span>
+                版权所有 杭州味捷餐饮有限公司
+            </span>
+        <span>
+                加盟有风险，投资需谨慎！
+            </span>
+    </p>
+</div>
+
+
+<!-- axios -->
+<script src="https://cdn.bootcss.com/axios/0.19.0/axios.min.js"></script>
+<!-- monent -->
+<script src="./lib/moment/moment.min.js"></script>
+<!-- layui.js -->
+<script src="./lib/layui/layui.js"></script>
+<script src="./js/form.js"></script>
+<!-- swiper -->
+<script src="https://cdn.bootcss.com/Swiper/4.5.0/js/swiper.min.js"></script>
+<script src="./js/contact/index.js"></script>
+<script>
+    var map = new BMap.Map("map");          // 创建地图实例
+    map.centerAndZoom(new BMap.Point(120.219628, 30.186925), 17);  // 初始化地图,设置中心点坐标和地图级别
+    map.centerAndZoom(point, 20);
+    map.setCurrentCity("杭州");          // 设置地图显示的城市 此项是必须设置的
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+    var point = new BMap.Point(120.219628, 30.186925);
+    var marker = new BMap.Marker(point);        // 创建标注
+    map.addOverlay(marker);                     // 将标注添加到地图中
+    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+</script>
+</body>
+</html>
+
+<script language=javascript>
+    var LiveReceptionCode_chatexplain_online='牛家人百度品专';
+    LiveReceptionCode_chatexplain_online=escape(LiveReceptionCode_chatexplain_online);
+</script>
+<script language="javascript" src="http://pyt.zoosnet.net/JS/LsJS.aspx?siteid=PYT62454332&float=1&lng=cn"></script>
+
+
+

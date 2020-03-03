@@ -1,0 +1,129 @@
+nav .swiper-slide:nth-of-type(5) a {
+  color: #333;
+  font-weight: 600;
+}
+nav .swiper-slide:nth-of-type(5) a:after {
+  content: '';
+  width: 18px;
+  height: 3px;
+  background-color: #edc67b;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 33;
+}
+.title i {
+  color: #333;
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 0.04rem;
+}
+.title a {
+  color: #666;
+  font-size: 11px;
+  position: relative;
+}
+.title:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0.13rem;
+  height: 0.13rem;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: #ffdea5;
+}
+.banner-img {
+  background-color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.banner-img a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.banner-img img {
+  border-radius: 5px;
+  display: block;
+}
+.banner-img p {
+  width: 3.45rem;
+  height: 0.3rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  line-height: 0.3rem;
+  padding-left: 0.12rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  font-size: 15px;
+}
+.news-box {
+  padding-top: 20px;
+  background-color: #fff;
+}
+.news-box ul li {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eaeaea;
+}
+.news-box ul li a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.news-box ul li a .word {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.news-box ul li a .word h2 {
+  width: 2.3rem;
+  color: #333;
+  font-size: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 600;
+}
+.news-box ul li a .word .cont {
+  width: 1.85rem;
+  color: #333;
+  font-size: 11px;
+  margin-top: 11px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.news-box ul li a .word .info {
+  font-size: 9px;
+  color: #666;
+}
+.news-box ul li a img {
+  display: block;
+  width: 0.91rem;
+  height: 0.575rem;
+  border-radius: 5px;
+  object-fit: contain;
+}
+.news-box ul li:last-child {
+  border-bottom: 0px;
+}
+.news02 {
+  margin-top: 5px;
+}
+/*# sourceMappingURL=news.css.map */

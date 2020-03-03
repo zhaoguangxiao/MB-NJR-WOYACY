@@ -1,0 +1,130 @@
+nav .swiper-slide:nth-of-type(3) a {
+  color: #333;
+  font-weight: 600;
+}
+nav .swiper-slide:nth-of-type(3) a:after {
+  content: '';
+  width: 18px;
+  height: 3px;
+  background-color: #edc67b;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.title i {
+  color: #333;
+}
+.title i:nth-of-type(1) {
+  font-size: 20px;
+}
+.title i:nth-of-type(2) {
+  font-size: 10px;
+}
+.hot {
+  padding-top: 20px;
+  background-color: #fff;
+}
+.hot ul li {
+  width: 100%;
+  height: 1.8rem;
+  padding-top: 0.49rem;
+  padding-right: 0.13rem;
+}
+.hot ul li:nth-of-type(1) p,
+.hot ul li:nth-of-type(3) p {
+  margin-left: 1.9rem;
+}
+.hot ul li:nth-of-type(1) .info,
+.hot ul li:nth-of-type(3) .info {
+  font-size: 12px;
+  color: #333;
+  line-height: 0.235rem;
+  margin-bottom: 5px;
+}
+.hot ul li:nth-of-type(1) .info i,
+.hot ul li:nth-of-type(3) .info i {
+  display: inline-block;
+  width: 0.235rem;
+  height: 0.235rem;
+  font-weight: 600;
+  background-color: #e3cf90;
+  border-radius: 5px;
+  color: #333;
+  font-size: 18px;
+  text-align: center;
+  margin-right: 7.5px;
+}
+.hot ul li:nth-of-type(1) .msg,
+.hot ul li:nth-of-type(3) .msg {
+  font-size: 11px;
+  color: #333;
+}
+.hot ul li:nth-of-type(1) {
+  background: url("../images/product/h01.png") no-repeat center center;
+  background-size: contain;
+  margin-bottom: 10px;
+}
+.hot ul li:nth-of-type(2) {
+  padding-top: 0.4rem;
+  background: url("../images/product/h02.png") no-repeat center center;
+  background-size: contain;
+}
+.hot ul li:nth-of-type(2) p {
+  padding-left: 0.28rem;
+}
+.hot ul li:nth-of-type(2) .info {
+  font-size: 12px;
+  color: #333;
+  margin-bottom: 5px;
+}
+.hot ul li:nth-of-type(2) .info i {
+  display: inline-block;
+  width: 0.235rem;
+  height: 0.235rem;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  background-color: #e3cf90;
+  border-radius: 5px;
+  margin-right: 7.5px;
+}
+.hot ul li:nth-of-type(2) .msg {
+  font-size: 11px;
+  color: #333;
+  padding-right: 1.7rem;
+}
+.hot ul li:nth-of-type(3) {
+  background: url("../images/product/h03.png") no-repeat center center;
+  background-size: contain;
+}
+.hot ul li:nth-of-type(3) .info {
+  margin-bottom: 10px;
+}
+.all,
+.snacks {
+  padding-top: 21.5px;
+  margin-top: 17.5px;
+  background-color: #fff;
+}
+.all .foods-list,
+.snacks .foods-list {
+  margin-top: 23.5px;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.all .foods-list li,
+.snacks .foods-list li {
+  flex: 0 0 1.52rem;
+  width: 1.52rem;
+  height: 1.42rem;
+  margin-bottom: 20px;
+}
+.all .foods-list li img,
+.snacks .foods-list li img {
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=product.css.map */
