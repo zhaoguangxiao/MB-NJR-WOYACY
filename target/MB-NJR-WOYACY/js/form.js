@@ -6,7 +6,7 @@
  */
 
 const msgApi = "http://manage.4007123123.com/leave/insert.do";
-console.log("加载完成")
+//console.log("加载完成")
 
 /**
  * @return {boolean}
