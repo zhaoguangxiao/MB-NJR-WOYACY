@@ -1,8 +1,8 @@
-nav .swiper-slide:nth-of-type(5) a {
+nav .swiper-slide:nth-of-type(3) a {
   color: #333;
   font-weight: 600;
 }
-nav .swiper-slide:nth-of-type(5) a:after {
+nav .swiper-slide:nth-of-type(3) a:after {
   content: '';
   width: 18px;
   height: 3px;

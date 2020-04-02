@@ -7,18 +7,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97633abe-32e1-49a9-84dc-26076abf3aff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/njr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/njr01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/index/banner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/njr/n_01.21670fad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/njr/n_02.50c75988.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/njr/n_03.70024ba5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/njr/n_04.2d993c85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/njr/n_05.cf6655ae.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/njr/n_07.1ef90115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/njr/n_08.1f0e85b5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/njr/n_09.5b96188d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/njr/n_10.ca83cd42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/sem/sem_1_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/njr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/njr01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/news.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/index/banner01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/index/banner02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/index/banner02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/images/index/banner03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/images/index/banner03.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/introduce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/join.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/css/news.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/css/news.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/css/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/images/index/banner01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/images/index/banner02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/images/index/banner02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/images/index/banner03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/images/index/banner03.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/js/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/js/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/introduce.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/introduce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MB-NJR-WOYACY/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/MB-NJR-WOYACY/product.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,29 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/news.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/product.css">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/newsInfo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            <state relative-caret-position="1971">
+              <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -92,6 +104,8 @@
       <find>加载完成</find>
       <find>.content</find>
       <find>w</find>
+      <find>leave/insert.do</find>
+      <find>msgApi</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/support.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/newsInfo.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/form.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/contact.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/introduce.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/join.html" />
@@ -115,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/news.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/news.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/product.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
       </list>
     </option>
   </component>
@@ -153,10 +167,10 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="138" />
-    <option name="y" value="289" />
+    <option name="x" value="609" />
+    <option name="y" value="136" />
     <option name="width" value="1400" />
-    <option name="height" value="825" />
+    <option name="height" value="913" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -212,7 +226,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\weijie-workspaces\MB-NJR-WOYACY\src\main\webapp\images" />
+      <recent name="E:\weijie-workspaces\MB-NJR-WOYACY\src\main\webapp\css" />
       <recent name="E:\weijie-workspaces\MB-NJR-WOYACY\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\weijie-workspaces\MB-NJR-WOYACY\src\main\webapp\images\index" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -325,6 +344,11 @@
       <workItem from="1583217236398" duration="2305000" />
       <workItem from="1583219744405" duration="3406000" />
       <workItem from="1583288933931" duration="9115000" />
+      <workItem from="1584765729898" duration="283000" />
+      <workItem from="1585617552639" duration="636000" />
+      <workItem from="1585730841829" duration="304000" />
+      <workItem from="1585731434154" duration="34000" />
+      <workItem from="1585731823046" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="牛家人移动端网站">
       <created>1583216902545</created>
@@ -379,13 +403,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19902000" />
+    <option name="totallyTimeSpent" value="21483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.23980686" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.22907725" />
       <window_info id="Structure" order="1" sideWeight="0.5008347" side_tool="true" weight="0.20064378" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -395,8 +418,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19644839" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.20532742" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.536071" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30743617" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -407,7 +430,7 @@
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.23862375" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.20421754" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -417,6 +440,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Maven" order="8" weight="0.23229614" />
+      <window_info anchor="right" id="Word Book" order="9" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35391566" />
@@ -538,30 +562,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/images/index/banner02.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/index/banner01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/ask.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-903">
-          <caret line="45" column="35" lean-forward="true" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/index/banner01.png" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -569,24 +570,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/introduce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/join.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/newsInfo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="815">
-          <caret line="73" column="35" lean-forward="true" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -601,13 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -629,6 +609,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/introduce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2049">
+          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/njr.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/index/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/ask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1614">
+          <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="278" column="28" selection-start-line="278" selection-start-column="28" selection-end-line="278" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/njr.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/newsInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1971">
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
         </state>
       </provider>
     </entry>
