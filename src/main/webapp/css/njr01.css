@@ -191,3 +191,35 @@ footer .footer-left a.address {
 .context{
     padding-bottom: 65px;
 }
+
+.introduce {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: #fff;
+}
+.introduce p {
+    font-size: 14px;
+    line-height: 21px;
+}
+.introduce p:nth-of-type(1) {
+    color: #333;
+    margin-top: 24px;
+}
+.introduce p:nth-of-type(2) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.introduce p:nth-of-type(2),
+.introduce p:nth-of-type(3) {
+    color: #666;
+}
+
+.title i {
+    color: #333;
+}
+.title i:nth-of-type(1) {
+    font-size: 20px;
+}
+.title i:nth-of-type(2) {
+    font-size: 10px;
+}
