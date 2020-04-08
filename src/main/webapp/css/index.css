@@ -316,3 +316,37 @@ header h1 a {
   background-size: cover;
 }
 /** 加盟热线 end*/
+
+/*表单样式*/
+.form {
+  background-color: #ffffff;
+  padding: 37px 42.5px;
+}
+.form h2 {
+  font-size: 27px;
+  color: #231815;
+  text-align: center;
+  margin-bottom: 27px;
+}
+.form .form-box input {
+  height: 50px;
+  margin-bottom: 35px;
+  border-radius: 5px;
+  border-color: #333333;
+}
+.form .form-box .btn-box {
+  margin: 0 auto;
+}
+.form .form-box button {
+  width: 100%;
+  height: 0.45rem;
+  background-image: linear-gradient(265deg, #ecbc6a 0%, #f8d599 21%, #ffe0ab 50%, #ffdea6 77%, #ecbc6a 100%), linear-gradient(#f8d599, #f8d599);
+  background-blend-mode: normal,
+  normal;
+  box-shadow: 2px 4px 16px 0 rgba(159, 101, 0, 0.13);
+  border-radius: 10px;
+  border: 0 solid #eaeaea;
+  font-size: 20px;
+  color: #fff;
+  margin: 0 auto;
+}

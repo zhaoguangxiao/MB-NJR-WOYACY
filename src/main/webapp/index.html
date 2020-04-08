@@ -122,12 +122,31 @@
                     </div>
                 </div>
 
-                <a href="tel:400-897-0200" class="to-form">
-                    立即申请加盟
-                </a>
+<!--                <a href="tel:400-897-0200" class="to-form">-->
+<!--                    立即申请加盟-->
+<!--                </a>-->
             </div>
-
+            <section class="form">
+                <h2>领取牛家人加盟资料</h2>
+                <div class="form-box">
+                    <form action="" class="layui-form mb-form">
+                        <div class="w">
+                            <input type="text" placeholder="姓名" class="layui-input" name="username" lay-verify="username">
+                            <input type="text" placeholder="联系方式" class="layui-input" name="phone" lay-verify="required|phone">
+                            <input type="hidden" placeholder="请输入所在地区" class="layui-input" name="address" lay-verify="address">
+                        </div>
+                        <div class="btn-box">
+                            <button lay-submit lay-filter="go">立即申请加盟</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
         </section>
+
+
+
+
+
 
         <!-- 品牌介绍 -->
         <section class="story">
@@ -279,7 +298,7 @@
 <script src="./js/index/index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <script src="./lib/layui/layui.js"></script>
-
+<script src="./js/form.js"></script>
 <script>
     var app = new Vue({
         el: "#index",
