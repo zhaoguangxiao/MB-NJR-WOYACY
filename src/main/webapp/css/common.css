@@ -115,3 +115,58 @@ footer .footer-left a.address {
   font-size: 10px;
 }
 /*# sourceMappingURL=common.css.map */
+
+
+
+/**
+  导航栏
+ */
+.float {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 0.44rem;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999999;
+}
+.float:after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #fff;
+  top: 0;
+  left: 33.33%;
+}
+.float:before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #fff;
+  top: 0;
+  left: 66.66%;
+}
+.float a {
+  flex: 0 0 33.33%;
+  color: #fff;
+  text-align: center;
+  line-height: 0.44rem;
+  vertical-align: middle;
+}
+.float a img {
+  display: inline-block;
+  width: 0.18rem;
+  vertical-align: middle;
+  margin-right: 0.05rem;
+}
+.float a span {
+  font-size: 12px;
+  vertical-align: middle;
+}
+.float a:hover {
+  color: #fff;
+}
