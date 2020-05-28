@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" content="味捷餐饮旗下品牌。牛家人大碗牛肉面，新鲜不过夜！">
+    <meta name="description" content="味捷餐饮旗下品牌。牛家人大碗牛肉面，新鲜不过夜！">
+    <meta name="format-detection" content="telephone=yes"/>
+    <title>新闻资讯__牛家人大碗牛肉面加盟官网</title>
+    <link rel=icon type=image/x-icon href=/public/favicon.ico>
+    <!-- 重置页面 -->
+    <link rel="stylesheet" href="/css/base.css">
+    <!-- 当页面的css -->
+    <link rel="stylesheet" href="/css/news.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <!-- swiper -->
+    <link href="https://cdn.bootcss.com/Swiper/4.5.0/css/swiper.min.css" rel="stylesheet">
+    <!-- animation -->
+    <link href="/lib/animation/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="/lib/layui/css/layui.css">
+    <!-- wow -->
+    <script src="/lib/animation/wow.min.js"></script>
+    <script src="/lib/rem/rem.js"></script>
+    <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+</head>
+<body>
+
+
+<!-- 浮窗 -->
+<div class="float">
+    <a href="/">
+        <img src="/images/index/home_bottom_img.png" alt="首页">
+        <span>首页</span>
+    </a>
+    <a href="tel:400-897-0200">
+        <img src="/images/index/msg_bottom_img.png" alt="电话咨询">
+        <span>电话咨询</span>
+    </a>
+    <a href="/contact.html">
+        <img src="/images/index/join_bottom_img.png" alt="申请加盟">
+        <span>申请加盟</span>
+    </a>
+</div>
+
+
+<div class="layout clearfix" id="news">
+    <!-- 导航 -->
+    <nav class="w">
+        <div class="swiper-container nav-banner">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="/">
+                        首页
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./introduce.html">
+                        关于我们
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="/journalism.html">
+                        新闻资讯
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./join.html">
+                        招商加盟
+                    </a>
+                </div>
+                <div class="swiper-slide swiper-slide-active">
+                    <a href="./product.html">
+                        产品展示
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="./contact.html">
+                        联系我们
+                    </a>
+                </div>
+            </div>
+            <!-- 如果需要分页器 -->
+            <!--<div class="swiper-pagination"></div>-->
+        </div>
+    </nav>
+
+    </p>
+    <div class="banner-img w" th:each="each,iterStat : ${userDTOList}" th:if="${iterStat.first}">
+            <a th:href="@{'/journalism/'+${each.uidpk}+'.html'}">
+                <img th:src="${each.articleThumbnailBean.thumbnailurl}" alt=""/>
+                <p th:text="${each.title}"></p>
+            </a>
+    </div>
+
+    <section class="news-box news01 w">
+        <h2 class="title">
+            <i>牛家人动态</i>
+        </h2>
+        <ul>
+            <li th:each="each,iterStat : ${userDTOList}" th:unless="${iterStat.first}">
+                <a th:href="@{'/journalism/'+${each.uidpk}+'.html'}">
+                    <div class="word">
+                        <h2 th:text="${ each.title }"></h2>
+                        <p class="cont" th:text="${ each.description }"></p>
+                        <p class="info">来源：
+                            [[${ each.source }]] 日期:[[${ #dates.format(each.createtime,'yyyy-MM-dd HH') }]]
+                        </p>
+                    </div>
+                    <img th:src="${each.articleThumbnailBean.thumbnailurl}" alt="">
+                </a>
+            </li>
+                        <div align="center">
+                            <a class="allpage"><b th:text="'共 '+ ${pageInfo.getPages()}+ ' 页'"></b></a>
+                            <a  th:href="@{/journalism.html(currentPage=${pageInfo.getFirstPage()})}"  >首页</a>
+                            <a th:if="${pageInfo.hasPreviousPage()} == true" th:href="@{/journalism.html(currentPage=${pageInfo.getPrePage()})}"  >上一页</a>
+                            <a th:href="@{'/journalism.html?currentPage=' + ${i}}"  th:each="i :${#numbers.sequence(pageInfo.firstPage, pageInfo.lastPage)}" th:text="  ${i}"   th:class="${pageInfo.getPageNumber() == i}? 'page-item active' :' page-item' "></a>
+                            <a th:if="${pageInfo.hasNextPage()} == true" th:href="@{/journalism.html(currentPage=${pageInfo.getNextPage()})}" >下一页</a>
+                            <a th:href="@{/journalism.html(currentPage=${pageInfo.getLastPage()})}" >尾页</a>
+                        </div>
+        </ul>
+    </section>
+
+
+    <footer>
+        <div class="footer-left">
+            <a href="javascript:void(0);" class="call">
+                <img src="/public/call.png" alt="">
+                <div>
+                    <p>客服热线：</p>
+                    <p>400-897-0200</p>
+                </div>
+            </a>
+            <a href="javascript:void(0);" class="address">
+                <img src="/public/address.png" alt="">
+                <div>
+                    <p>公司地址：</p>
+                    <p>浙江省杭州市滨江区龙威大厦20楼</p>
+                </div>
+            </a>
+            <a rel="nofollow" href="http://beian.miit.gov.cn/" class="keep">
+                <img src="/public/bn.png" alt="">
+                <div>
+                    <p>备案号：</p>
+                    <p>浙ICP备17052793号</p>
+                </div>
+            </a>
+        </div>
+        <h1>
+            <img src="/public/footer_qrcode.png" alt="牛家人大碗牛肉面logo" class="footer-logo">
+        </h1>
+    </footer>
+    <p class="warn_tip w">
+            <span>
+                版权所有 杭州味捷餐饮有限公司
+            </span>
+        <span>
+                加盟有风险，投资需谨慎！
+            </span>
+    </p>
+</div>
+
+<!-- swiper -->
+<script src="https://cdn.bootcss.com/Swiper/4.5.0/js/swiper.min.js"></script>
+
+<script src="/js/news/index.js"></script>
+
+</body>
+</html>
+<!--百度统计-->
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6e36f10dcf3116565dddab2c53a9eb67";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<!--商务通-->
+<script language=javascript>
+    var LiveReceptionCode_chatexplain_online = '';
+    LiveReceptionCode_chatexplain_online = escape(LiveReceptionCode_chatexplain_online);
+</script>
+<script language="javascript" src="http://pyt.zoosnet.net/JS/LsJS.aspx?siteid=PYT62454332&float=1&lng=cn"></script>
+
+
+

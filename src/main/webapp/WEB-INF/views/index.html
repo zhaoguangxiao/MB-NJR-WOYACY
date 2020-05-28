@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="keywords" content="牛家人加盟,牛肉面加盟费,面店加盟条件,牛家人大碗牛肉面怎么样">
-    <meta name="description" content="牛家人大碗牛肉面加盟品牌隶属于杭州味捷集团管理有限公司,专注于提供牛肉面加盟培训,分享面店加盟技巧等.牛家人主打一碗不会坨的面,是您创业开店的明智之选.牛家人大碗牛肉面加盟电话：400-897-0200.">
+    <meta name="description"
+          content="牛家人大碗牛肉面加盟品牌隶属于杭州味捷集团管理有限公司,专注于提供牛肉面加盟培训,分享面店加盟技巧等.牛家人主打一碗不会坨的面,是您创业开店的明智之选.牛家人大碗牛肉面加盟电话：400-897-0200.">
     <meta name="format-detection" content="telephone=yes"/>
     <title>牛肉面加盟_面店加盟_牛家人大碗牛肉面加盟-牛家人官网</title>
-    <link rel=icon type=image/x-icon href=./public/favicon.ico>
+    <link rel=icon type=image/x-icon href=/public/favicon.ico>
     <!-- 重置页面 -->
-    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="/css/base.css">
     <!-- 当页面的css -->
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/common.css">
     <!-- layui.css -->
-    <link rel="stylesheet" href="./lib/layui/css/layui.css">
+    <link rel="stylesheet" href="/lib/layui/css/layui.css">
     <!-- swiper -->
     <link href="https://cdn.bootcss.com/Swiper/4.5.0/css/swiper.min.css" rel="stylesheet">
-    <script src="./lib/rem/rem.js"></script>
+    <script src="/lib/rem/rem.js"></script>
     <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
 </head>
 <body>
@@ -26,19 +27,18 @@
 <!-- 浮窗 -->
 <div class="float">
     <a href="/">
-        <img src="./images/index/home_bottom_img.png" alt="首页">
+        <img src="/images/index/home_bottom_img.png" alt="首页">
         <span>首页</span>
     </a>
     <a href="tel:400-897-0200">
-        <img src="./images/index/msg_bottom_img.png" alt="电话咨询">
+        <img src="/images/index/msg_bottom_img.png" alt="电话咨询">
         <span>电话咨询</span>
     </a>
-    <a href="./contact.html">
-        <img src="./images/index/join_bottom_img.png" alt="申请加盟">
+    <a href="/contact.html">
+        <img src="/images/index/join_bottom_img.png" alt="申请加盟">
         <span>申请加盟</span>
     </a>
 </div>
-
 
 
 <div class="layout clearfix" id="index">
@@ -59,7 +59,7 @@
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="./news.html">
+                        <a href="/journalism.html">
                             新闻资讯
                         </a>
                     </div>
@@ -88,17 +88,17 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <a href="javascript:void(0);">
-                        <img src="./images/index/banner04.jpg" alt="牛家人大碗牛肉面">
+                        <img src="/images/index/banner04.jpg" alt="牛家人大碗牛肉面">
                     </a>
                 </div>
                 <div class="swiper-slide">
                     <a href="javascript:void(0);">
-                        <img src="./images/index/banner02.jpg" alt="牛家人大碗牛肉面">
+                        <img src="/images/index/banner05.jpg" alt="牛家人大碗牛肉面">
                     </a>
                 </div>
                 <div class="swiper-slide">
                     <a href="javascript:void(0);">
-                        <img src="./images/index/banner03.jpg" alt="牛家人大碗牛肉面加盟">
+                        <img src="/images/index/banner03.jpg" alt="牛家人大碗牛肉面加盟">
                     </a>
                 </div>
             </div>
@@ -127,18 +127,21 @@
                     </div>
                 </div>
 
-<!--                <a href="tel:400-897-0200" class="to-form">-->
-<!--                    立即申请加盟-->
-<!--                </a>-->
+                <!--                <a href="tel:400-897-0200" class="to-form">-->
+                <!--                    立即申请加盟-->
+                <!--                </a>-->
             </div>
             <section class="form">
                 <h2>领取牛家人加盟资料</h2>
                 <div class="form-box">
                     <form action="" class="layui-form mb-form">
                         <div class="w">
-                            <input type="text" placeholder="姓名" class="layui-input" name="username" lay-verify="username">
-                            <input type="text" placeholder="联系方式" class="layui-input" name="phone" lay-verify="required|phone">
-                            <input type="hidden" placeholder="请输入所在地区" class="layui-input" name="address" lay-verify="address">
+                            <input type="text" placeholder="姓名" class="layui-input" name="username"
+                                   lay-verify="username">
+                            <input type="text" placeholder="联系方式" class="layui-input" name="phone"
+                                   lay-verify="required|phone">
+                            <input type="hidden" placeholder="请输入所在地区" class="layui-input" name="address"
+                                   lay-verify="address">
                         </div>
                         <div class="btn-box">
                             <button lay-submit lay-filter="go">立即申请加盟</button>
@@ -149,16 +152,12 @@
         </section>
 
 
-
-
-
-
         <!-- 品牌介绍 -->
         <section class="story">
             <div class="story-top w">
                 <h2 class="title">
-                    <img src="./images/index/story_title.png" alt="">
-                    <a href="./introduce.html">查看更多</a>
+                    <img src="/images/index/story_title.png" alt="">
+                    <a href="/introduce.html">查看更多</a>
                 </h2>
 
             </div>
@@ -170,8 +169,8 @@
                     牛家人选用陕西光照3000小时的麦穗，经层层删选保留最纯粹饱满的麦穗，并采用先进研磨工艺。反复研磨而成的面粉，色泽淡黄干净，粉质细腻，麦香清淡，蛋白质丰富，面筋中厚恰好，俨然自然之味。经揉、抻、拉、压、切等30多道精细工序，每一碗面都劲道Q弹。
                 </p>
                 <div>
-                    <img src="./images/index/story02.png" alt="">
-                    <img src="./images/index/story03.png" alt="">
+                    <img src="/images/index/story02.png" alt="">
+                    <img src="/images/index/story03.png" alt="">
                 </div>
             </div>
         </section>
@@ -188,22 +187,22 @@
             <div class="w">
                 <div class="product-top">
                     <h2 class="title w">
-                        <img src="./images/index/product_title.png" alt="">
-                        <a href="./product.html" style="color: #efc178;">查看更多</a>
+                        <img src="/images/index/product_title.png" alt="">
+                        <a href="/product.html" style="color: #efc178;">查看更多</a>
                     </h2>
                 </div>
                 <hr>
                 <div class="product-mid">
                     <div class="w">
-                        <img src="./images/index/product01.png" alt="">
-                        <img src="./images/index/product02.png" alt="">
-                        <img src="./images/index/product03.png" alt="">
-                        <img src="./images/index/product04.png" alt="">
-                        <img src="./images/index/product05.png" alt="">
+                        <img src="/images/index/product01.png" alt="">
+                        <img src="/images/index/product02.png" alt="">
+                        <img src="/images/index/product03.png" alt="">
+                        <img src="/images/index/product04.png" alt="">
+                        <img src="/images/index/product05.png" alt="">
                     </div>
                 </div>
                 <div class="product-bottom w">
-                    <img src="./images/index/word.png" alt="">
+                    <img src="/images/index/word.png" alt="">
                 </div>
             </div>
         </section>
@@ -211,8 +210,8 @@
         <!-- 加盟优势 -->
         <section class="join w">
             <h2 class="title" style="margin-bottom: 20px;">
-                <img src="./images/index/join_title.png" alt="">
-                <a href="./introduce.html"></a>
+                <img src="/images/index/join_title.png" alt="">
+                <a href="/introduce.html"></a>
             </h2>
             <div>
                 <span>零经验开店</span>
@@ -237,20 +236,21 @@
         <section class="news w">
             <div class="w">
                 <h2 class="title">
-                    <img src="./images/index/news_title.png" alt="">
-                    <a href="./news.html">查看更多</a>
+                    <img src="/images/index/news_title.png" alt="">
+                    <a href="/journalism.html">查看更多</a>
                 </h2>
                 <ul>
-                    <li class="w" v-for="item in newsList.slice(0,5)" :key="item.uidpk">
-                        <a :href="'./newsInfo.html?id='+item.uidpk">
+                    <li class="w" th:each="each,iterStat : ${object}" th:if="${iterStat.index lt 6}">
+                        <a th:href="@{'/journalism/'+${each.uidpk}+'.html'}">
                             <div class="word">
-                                <p class="title">{{ item.title | slh(10) }}</p>
-                                <p class="desc">{{ item.description }}</p>
+                                <p class="title" th:text="${each.title}"></p>
+                                <p class="desc" th:text="${each.description}"></p>
                                 <p class="info">
-                                    来源：{{ item.source }} &nbsp {{ item.createtime | getTime() }}
+                                    来源：[[${ each.source }]]
+                                    日期: [[${ #dates.format(each.createtime,'yyyy-MM-dd HH') }]]
                                 </p>
                             </div>
-                            <img :src="item.articleThumbnailBean.thumbnailurl" alt="">
+                            <img th:src="${each.articleThumbnailBean.thumbnailurl}" alt="">
                         </a>
                     </li>
                 </ul>
@@ -260,21 +260,21 @@
         <footer>
             <div class="footer-left">
                 <a href="javascript:void(0);" class="call">
-                    <img src="./public/call.png" alt="">
+                    <img src="/public/call.png" alt="">
                     <div>
                         <p>客服热线：</p>
                         <p>400-897-0200</p>
                     </div>
                 </a>
                 <a href="javascript:void(0);" class="address">
-                    <img src="./public/address.png" alt="">
+                    <img src="/public/address.png" alt="">
                     <div>
                         <p>公司地址：</p>
                         <p>浙江省杭州市滨江区龙威大厦20楼</p>
                     </div>
                 </a>
                 <a rel="nofollow" href="http://beian.miit.gov.cn/" class="keep">
-                    <img src="./public/bn.png" alt="">
+                    <img src="/public/bn.png" alt="">
                     <div>
                         <p>备案号：</p>
                         <p>浙ICP备17052793号</p>
@@ -282,7 +282,7 @@
                 </a>
             </div>
             <h1>
-                <img src="./public/footer_qrcode.png" alt="牛家人大碗牛肉面logo" class="footer-logo">
+                <img src="/public/footer_qrcode.png" alt="牛家人大碗牛肉面logo" class="footer-logo">
             </h1>
         </footer>
         <p class="warn_tip w">
@@ -299,13 +299,13 @@
 <!-- axios -->
 <script src="https://cdn.bootcss.com/axios/0.19.0/axios.min.js"></script>
 <!-- monent -->
-<script src="./lib/moment/moment.min.js"></script>
+<script src="/lib/moment/moment.min.js"></script>
 <!-- swiper -->
 <script src="https://cdn.bootcss.com/Swiper/4.5.0/js/swiper.min.js"></script>
-<script src="./js/index/index.js"></script>
+<script src="/js/index/index.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-<script src="./lib/layui/layui.js"></script>
-<script src="./js/form.js"></script>
+<script src="/lib/layui/layui.js"></script>
+<script src="/js/form.js"></script>
 <script>
     var app = new Vue({
         el: "#index",
@@ -374,55 +374,7 @@
                     centeredSlides: true,
                 })
             },
-            // 获取新闻数据
-            async getNews()
-    {
-        const res = await
-        // axios.get("http://manage.zhou-yuanwai.com/journalism/findAllNjr.do")
-        axios.get("https://manage.zhou-yuanwai.com/comprehens/journalism.do?uidpk=20")
-        // console.log(res.data)
-        if (res.status === 200) {
-            this.newsList = res.data.slice(0, 3)
-        }
-    }
-    },
-    filters: {
-        // 超过字数变成省略号
-        slh: function (value, wordLimit) {
-            // var str = $(textName).html()
-            // console.log(str)
-            // var subStr = str.substring(0, wordLimit)
-            // // console.log(subStr)
-            // $(textName).html(subStr + (str.length > wordLimit ? "..." : ""))
-            let subStr = value.substring(0, wordLimit)
-            let newSubStr = subStr + (value.length > wordLimit ? "..." : "")
-            return newSubStr
-        }
-    ,
-        // 格式化时间
-        getTime: function (dataStr, pattern = "YYYY-MM-DD") {
-            return moment(dataStr).format(pattern);
-        }
-    ,
-        // 获取日期
-        getDay(val)
-        {
-            return val.split("-")[2]
-        }
-    ,
-        // 获取日期
-        getDate(val)
-        {
-            return val.split("-")[0] + "-" + val.split("-")[1]
-        }
-    }
-    ,
-    created()
-    {
-        this.getNews()
-    }
-    ,
-    mounted()
+    }, mounted()
     {
         this.bannerInit1()
         this.bannerInit2()
@@ -430,24 +382,16 @@
     })
 </script>
 
-<!--<script>-->
-<!--window.onload = function () {-->
-<!--// 请求文章地址-->
-<!--const getNewsApi = "https://manage.zhou-yuanwai.com";-->
-<!--}-->
-<!---->
-<!--</script>-->
-
 </body>
 </html>
 <!--百度统计-->
 <script>
-    var  _hmt  =  _hmt  ||  [];
-    (function()  {
-        var  hm  =  document.createElement("script");
-        hm.src  =  "https://hm.baidu.com/hm.js?6e36f10dcf3116565dddab2c53a9eb67";
-        var  s  =  document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(hm,  s);
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6e36f10dcf3116565dddab2c53a9eb67";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
     })();
 </script>
 <!--商务通-->

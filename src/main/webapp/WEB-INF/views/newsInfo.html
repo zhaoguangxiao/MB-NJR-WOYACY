@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" th:content="${journalism.keyword}">
+    <meta name="description" th:content="${journalism.description}">
+    <meta name="format-detection" content="telephone=yes"/>
+    <title th:text="${journalism.title}"></title>
+    <link rel=icon type=image/x-icon href=/public/favicon.ico>
+    <!-- 重置页面 -->
+    <link rel="stylesheet" href="/css/base.css">
+    <!-- 当页面的css -->
+    <link rel="stylesheet" href="/css/newsInfo.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <!-- layui.css -->
+    <link rel="stylesheet" href="/lib/layui/css/layui.css">
+    <!-- wow -->
+    <script src="/lib/animation/wow.min.js"></script>
+    <script src="/lib/rem/rem.js"></script>
+    <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+</head>
+<body>
+
+
+<!-- 浮窗 -->
+<div class="float">
+    <a href="/">
+        <img src="/images/index/home_bottom_img.png" alt="首页">
+        <span>首页</span>
+    </a>
+    <a href="tel:400-897-0200">
+        <img src="/images/index/msg_bottom_img.png" alt="电话咨询">
+        <span>电话咨询</span>
+    </a>
+    <a href="/contact.html">
+        <img src="/images/index/join_bottom_img.png" alt="申请加盟">
+        <span>申请加盟</span>
+    </a>
+</div>
+
+
+<div class="layout clearfix" id="news">
+
+    <nav class="clearfix">
+        <a th:href="@{'/journalism.html'}">
+            <i class="f_left iconfont">&#xe600;</i>
+        </a>
+        <p>新闻资讯</p>
+    </nav>
+
+    <!-- 文章 -->
+    <article class="container">
+        <p th:text="${journalism.title}"></p>
+        <div class="">
+            <p>日期：[[${ #dates.format(journalism.createtime,'yyyy-MM-dd HH') }]]</p>
+            <p>来源：[[${ journalism.source }]]</p>
+        </div>
+
+        <main class="w" th:utext="${journalism.content}"></main>
+    </article>
+
+    <!-- 相关文章 -->
+    <div class="about w">
+        <h2>相关文章</h2>
+        <a th:each="each,iterStat : ${random}" th:href="@{'/journalism/'+${each.uidpk}+'.html'}">[[${
+            each.title }]]</a>
+
+    </div>
+
+    <footer>
+        <div class="footer-left">
+            <a href="javascript:void(0);" class="call">
+                <img src="/public/call.png" alt="">
+                <div>
+                    <p>客服热线：</p>
+                    <p>400-897-0200</p>
+                </div>
+            </a>
+            <a href="javascript:void(0);" class="address">
+                <img src="/public/address.png" alt="">
+                <div>
+                    <p>公司地址：</p>
+                    <p>浙江省杭州市滨江区龙威大厦20楼</p>
+                </div>
+            </a>
+            <a rel="nofollow" href="http://beian.miit.gov.cn/" class="keep">
+                <img src="/public/bn.png" alt="">
+                <div>
+                    <p>备案号：</p>
+                    <p>浙ICP备17052793号</p>
+                </div>
+            </a>
+        </div>
+        <h1>
+            <img src="/public/footer_qrcode.png" alt="牛家人大碗牛肉面logo" class="footer-logo">
+        </h1>
+    </footer>
+    <p class="warn_tip w">
+            <span>
+                版权所有 杭州味捷餐饮有限公司
+            </span>
+        <span>
+                加盟有风险，投资需谨慎！
+            </span>
+    </p>
+</div>
+
+
+<!-- monent -->
+<script src="/lib/moment/moment.min.js"></script>
+</body>
+</html>
+<!--百度统计-->
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?6e36f10dcf3116565dddab2c53a9eb67";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<!--商务通-->
+<script language=javascript>
+    var LiveReceptionCode_chatexplain_online = '';
+    LiveReceptionCode_chatexplain_online = escape(LiveReceptionCode_chatexplain_online);
+</script>
+<script language="javascript" src="http://pyt.zoosnet.net/JS/LsJS.aspx?siteid=PYT62454332&float=1&lng=cn"></script>
+
+
+
