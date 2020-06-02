@@ -110,18 +110,44 @@
                     <img th:src="${each.articleThumbnailBean.thumbnailurl}" alt="">
                 </a>
             </li>
-                        <div align="center">
-                            <a class="allpage"><b th:text="'共 '+ ${pageInfo.getPages()}+ ' 页'"></b></a>
-                            <a  th:href="@{/journalism.html(currentPage=${pageInfo.getFirstPage()})}"  >首页</a>
-                            <a th:if="${pageInfo.hasPreviousPage()} == true" th:href="@{/journalism.html(currentPage=${pageInfo.getPrePage()})}"  >上一页</a>
-                            <a th:href="@{'/journalism.html?currentPage=' + ${i}}"  th:each="i :${#numbers.sequence(pageInfo.firstPage, pageInfo.lastPage)}" th:text="  ${i}"   th:class="${pageInfo.getPageNumber() == i}? 'page-item active' :' page-item' "></a>
-                            <a th:if="${pageInfo.hasNextPage()} == true" th:href="@{/journalism.html(currentPage=${pageInfo.getNextPage()})}" >下一页</a>
-                            <a th:href="@{/journalism.html(currentPage=${pageInfo.getLastPage()})}" >尾页</a>
-                        </div>
+<!--                        <div align="center">-->
+<!--                            <a class="allpage"><b th:text="'共 '+ ${pageInfo.getPages()}+ ' 页'"></b></a>-->
+<!--                            <a  th:href="@{/journalism.html(currentPage=${pageInfo.getFirstPage()})}"  >首页</a>-->
+<!--                            <a th:if="${pageInfo.hasPreviousPage()} == true" th:href="@{/journalism.html(currentPage=${pageInfo.getPrePage()})}"  >上一页</a>-->
+<!--                            <a th:href="@{'/journalism.html?currentPage=' + ${i}}"  th:each="i :${#numbers.sequence(pageInfo.firstPage, pageInfo.lastPage)}" th:text="  ${i}"   th:class="${pageInfo.getPageNumber() == i}? 'page-item active' :' page-item' "></a>-->
+<!--                            <a th:if="${pageInfo.hasNextPage()} == true" th:href="@{/journalism.html(currentPage=${pageInfo.getNextPage()})}" >下一页</a>-->
+<!--                            <a th:href="@{/journalism.html(currentPage=${pageInfo.getLastPage()})}" >尾页</a>-->
+<!--                        </div>-->
         </ul>
+        <div class="gy-gd">
+            <h4><a th:if="${pageInfo.hasPreviousPage()} == true"
+                   th:href="@{/journalism.html(currentPage=${pageInfo.getPrePage()})}"
+                   class=" wow fadeInUp">上一页</a>
+                <a th:href="@{'/journalism.html?currentPage=' + ${i}}"
+                   style="visibility: visible; animation-name: fadeInUp;"
+                   th:each="i :${#numbers.sequence(pageInfo.firstPage, pageInfo.lastPage)}"
+                   th:text="${i}"
+                   th:class="${pageInfo.getPageNumber() == i}? 'xzdsz wow fadeInUp' :' wow fadeInUp animated' " class="wow fadeInUp"></a>
+
+                <a th:if="${pageInfo.hasNextPage()} == true"
+                   th:href="@{/journalism.html(currentPage=${pageInfo.getNextPage()})}"
+                   class="wow fadeInUp">下一页</a>
+                <a th:href="@{/journalism.html(currentPage=${pageInfo.getLastPage()})}" class="wow fadeInUp" >尾页</a>
+            </h4>
+        </div>
     </section>
 
 
+
+
+    <p class="warn_tip w">
+            <span>
+                版权所有 杭州味捷餐饮有限公司
+            </span>
+        <span>
+                加盟有风险，投资需谨慎！
+            </span>
+    </p>
     <footer>
         <div class="footer-left">
             <a href="javascript:void(0);" class="call">

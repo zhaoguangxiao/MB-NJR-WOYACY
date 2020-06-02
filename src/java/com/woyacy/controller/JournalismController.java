@@ -34,7 +34,7 @@ public class JournalismController {
         }
 
         // 参数为当前页码、每页显示条数、查询的列表集合
-        PageUtil pageInfo = new PageUtil(Integer.valueOf(map.get("currentPage")), 5, comprehensBeans);
+        PageUtil pageInfo = new PageUtil(Integer.valueOf(map.get("currentPage")), 8, comprehensBeans);
         model.addAttribute("userDTOList", pageInfo.getList());
         model.addAttribute("pageInfo", pageInfo);
         return "news";
