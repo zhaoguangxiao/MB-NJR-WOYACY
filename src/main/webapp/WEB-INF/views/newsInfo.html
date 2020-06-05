@@ -2,6 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
+    <link rel=icon type=image/x-icon href=/public/favicon.ico>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="keywords" th:content="${journalism.keyword}">
@@ -10,7 +11,7 @@
     <h1>
         <title th:text="${journalism.title}"></title>
     </h1>
-    <link rel=icon type=image/x-icon href=/public/favicon.ico>
+
     <!-- 重置页面 -->
     <link rel="stylesheet" href="/css/base.css">
     <!-- 当页面的css -->
@@ -21,7 +22,7 @@
     <!-- wow -->
     <script src="/lib/animation/wow.min.js"></script>
     <script src="/lib/rem/rem.js"></script>
-    <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
+    <script src="/js/cityjson.js"></script>
 </head>
 <body>
 

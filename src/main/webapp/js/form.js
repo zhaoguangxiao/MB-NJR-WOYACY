@@ -25,7 +25,7 @@ function IsPC() {
 }
 
 const userEqt = IsPC() ? 0 : 1;
-console.log(userEqt)
+//console.log(userEqt);
 let nowUrl = window.location.href;
 let nowIp = returnCitySN["cip"];
 layui.use(['layer', 'form'], function () {
@@ -66,7 +66,7 @@ layui.use(['layer', 'form'], function () {
         params.append('phone', phone)
         axios.post(msgApi, params)
             .then(res => {
-                console.log(res.data.message);
+               // console.log(res.data.message);
                 if (res.data.message === 200) {
                     layer.msg("发送成功，我们会尽快与您联系");
 
@@ -83,7 +83,7 @@ layui.use(['layer', 'form'], function () {
                         document.getElementById("c-btn").style.backgroundColor = "rgb(244,157,22)"
                         document.getElementById("c-btn").innerText = "您已提交"
                     } else {
-                        console.log("么得")
+                       // console.log("么得")
                     }
                 }
 

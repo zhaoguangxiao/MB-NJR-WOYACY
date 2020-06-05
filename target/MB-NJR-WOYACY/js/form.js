@@ -25,7 +25,7 @@ function IsPC() {
 }
 
 const userEqt = IsPC() ? 0 : 1;
-console.log(userEqt)
+//console.log(userEqt);
 let nowUrl = window.location.href;
 let nowIp = returnCitySN["cip"];
 layui.use(['layer', 'form'], function () {
